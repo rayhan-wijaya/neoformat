@@ -1,5 +1,5 @@
 function! neoformat#formatters#astro#enabled() abort
-    return ['prettier']
+    return ['prettier, prettierd']
 endfunction
 
 function! neoformat#formatters#astro#prettier() abort
